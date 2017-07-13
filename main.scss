@@ -19,6 +19,12 @@ html {
 
 body {
   background: url("{{ site.baseurl }}/images/bg.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: $darkGray;
+
   //background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
