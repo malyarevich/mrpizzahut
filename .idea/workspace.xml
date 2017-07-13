@@ -15,14 +15,24 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+              <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               <folding>
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-4162">
+              <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,6 +66,7 @@
         <option value="$PROJECT_DIR$/_includes/meta.html" />
         <option value="$PROJECT_DIR$/_posts/Home.md" />
         <option value="$PROJECT_DIR$/_posts/2014-3-3-Hello-World.md" />
+        <option value="$PROJECT_DIR$/main.scss" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
       </list>
     </option>
@@ -249,15 +260,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1499951933593</updated>
-      <workItem from="1499951939184" duration="4505000" />
+      <workItem from="1499951939184" duration="4908000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4505000" />
+    <option name="totallyTimeSpent" value="4908000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -427,14 +438,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footer.js.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -513,10 +516,18 @@
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
-          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4162">
+          <caret line="20" column="57" lean-forward="false" selection-start-line="20" selection-start-column="57" selection-end-line="20" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
