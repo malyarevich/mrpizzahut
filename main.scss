@@ -18,7 +18,8 @@ html {
 }
 
 body {
-  background: url("{{ site.baseurl }}/images/bg.jpg") no-repeat center fixed;
+  background: url("{{ site.baseurl }}/images/bg.jpg");
+  background-attachment: fixed;
   background-size: cover;
   background-color: $darkGray;
 
