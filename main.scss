@@ -23,6 +23,7 @@ body {
   background-size: cover;
   background-color: $darkGray;
   background-blend-mode: multiply;
+  filter: grayscale(100%);
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
