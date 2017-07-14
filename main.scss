@@ -26,6 +26,7 @@ body {
 
 a.btn-one{
   display: inline-block;
+  color: #ffffff;
   font-weight: 700;
   text-decoration: none;
   user-select: none;
@@ -36,7 +37,7 @@ a.btn-one{
   transition: 0.2s;
 }
 a.btn-one:hover { background: rgba(255,255,255,.2); }
-a.btn-one:active { background: white; }
+a.btn-one:active { background: white; text-colo }
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
