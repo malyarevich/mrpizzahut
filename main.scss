@@ -34,7 +34,7 @@ h1.hi-text{
 //@import "highlights";
 //@import "svg-icons";
 
-.btn-feel-pizza {
+.btn-secondary.btn-feel-pizza {
   background: none;
   border: 2px solid $white;
   border-radius: 1px;
@@ -42,11 +42,11 @@ h1.hi-text{
   font-weight: 700;
   transition: 0.2s;
 }
-a.btn-feel-pizza:hover {
+.btn-secondary.btn-feel-pizza:hover {
 
   background: rgba(255,255,255,.2);
 }
-a.btn-feel-pizza:active {
+.btn-secondary.btn-feel-pizza:active {
   background: white;
   color: black;
 }
