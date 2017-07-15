@@ -24,23 +24,28 @@ body {
   background-color: $black;
 }
 
-a.btn-one{
-  display: inline-block;
-  color: white;
-  font-weight: 700;
-  text-decoration: none;
-  user-select: none;
-  padding: .5em 2em;
-  outline: none;
-  border: 2px solid $white;
-  border-radius: 1px;
-  transition: 0.2s;
+h1.hi-text{
+
 }
-a.btn-one:hover { background: rgba(255,255,255,.2); }
-a.btn-one:active { background: white; color: white; }
+
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
 //@import "svg-icons";
 
-
+.btn-feel-pizza {
+  background: none;
+  border: 2px solid $white;
+  border-radius: 1px;
+  color: white;
+  font-weight: 700;
+  transition: 0.2s;
+}
+a.btn-feel-pizza:hover {
+  background: rgba(255,255,255,.2);
+}
+a.btn-feel-pizza:active {
+  background: white;
+  color: black;
+}
