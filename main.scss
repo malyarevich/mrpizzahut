@@ -23,12 +23,15 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: $black;
-  filter: grayscale(1);
-  -webkit-filter: grayscale(1);
 }
 
 .center{
   margin: 0 auto;
+}
+
+.container{
+  filter: grayscale(1);
+  -webkit-filter: grayscale(1);
 }
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
