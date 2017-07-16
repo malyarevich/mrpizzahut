@@ -37,9 +37,10 @@ body {
   border-radius: 6px;
   color: white;
   font-family: 'Roboto', sans-serif;
+  font-size: xx-large;
   font-weight: lighter;
   transition: 0.2s;
-  padding: 12px 96px;
+  padding: 8px 96px;
 }
 
 .btn.btn-secondary.btn-feel-pizza:hover {
@@ -53,5 +54,6 @@ body {
 
 .Main-Caption {
   font-family: 'Roboto', sans-serif;
+  font-size: 4em;
   font-weight: lighter;
 }
