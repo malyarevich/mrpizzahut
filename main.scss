@@ -42,7 +42,12 @@ body {
   font-size: 3rem;
   font-weight: lighter;
   transition: 0.2s;
-  padding: 8px 96px;
+  width: 100%;
+}
+.btn.btn-secondary.btn-feel-pizza>span{
+
+  margin: 8px 96px;
+
 }
 
 .btn.btn-secondary.btn-feel-pizza:hover {
