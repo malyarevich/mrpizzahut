@@ -23,6 +23,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: $black;
+  filter: grayscale(100%);
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
@@ -55,10 +56,8 @@ body {
 }
 
 .btn.btn-secondary.btn-feel-pizza:hover {
-  .body  {
-    -webkit-filter: grayscale(50%);
-    filter: grayscale(50%););
-  }
+  .body  {   -webkit-filter: grayscale(50%);
+    filter: grayscale(50%);); }
   background: rgba(255,255,255,.35);
 }
 
