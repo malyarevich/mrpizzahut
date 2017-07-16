@@ -61,12 +61,14 @@ body {
   color: black;
 }
 
+.block-caption{
+  height: 18rem;
+}
 .main-caption {
   color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 6rem;
   font-weight: lighter;
   text-align:  center;
-  padding-bottom: 2rem;
-  padding-top: 16rem;
+  display: flex;
 }
