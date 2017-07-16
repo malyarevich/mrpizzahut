@@ -23,6 +23,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: $black;
+  filter: grayscale(100%);
 }
 
 .center{
@@ -53,6 +54,9 @@ body {
 }
 
 .btn.btn-secondary.btn-feel-pizza:hover {
+  .body  {
+    filter: grayscale(100%);
+  }
   background: rgba(255,255,255,.35);
 }
 
