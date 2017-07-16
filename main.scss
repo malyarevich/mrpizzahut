@@ -68,9 +68,10 @@ body {
 .main-caption {
   align-self: flex-end;
   color: white;
+  display: flex;
   font-family: 'Roboto', sans-serif;
   font-size: 6rem;
+  line-height: 1.2em;
   font-weight: lighter;
   text-align:  center;
-  display: flex;
 }
