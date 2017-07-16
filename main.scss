@@ -25,7 +25,7 @@ body {
   background-color: $black;
 }
 
-center{
+.center{
   margin: 0 auto;
 }
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
@@ -49,7 +49,6 @@ center{
 .btn.btn-secondary.btn-feel-pizza>div{
 
   margin: 0 auto;
-  padding: .5rem 0;
   display: block;
 }
 
