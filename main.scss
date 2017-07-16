@@ -36,8 +36,8 @@ body {
   border: 1px solid $white;
   border-radius: 6px;
   color: white;
-  font-family: 'Roboto' Thin;
-  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+  font-weight: thin;
   transition: 0.2s;
   padding: 12px 96px;
 }
@@ -52,5 +52,6 @@ body {
 }
 
 .Main-Caption {
-  font-family: "Roboto Thin";
+  font-family: 'Roboto', sans-serif;
+  font-weight: thin;
 }
