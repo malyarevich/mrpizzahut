@@ -33,7 +33,7 @@ body {
 
 
 
-.btn.btn-secondary.center-block.btn-feel-pizza {
+.btn.btn-secondary.btn-feel-pizza {
   background: none;
   border: 1px solid $white;
   border-radius: 6px;
@@ -45,11 +45,11 @@ body {
   padding: 8px 96px;
 }
 
-.btn.btn-secondary.center-block.btn-feel-pizza:hover {
+.btn.btn-secondary.btn-feel-pizza:hover {
   background: rgba(255,255,255,.35);
 }
 
-.btn.btn-secondary.center-block.btn-feel-pizza:active {
+.btn.btn-secondary.btn-feel-pizza:active {
   background: white;
   color: black;
 }
