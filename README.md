@@ -8,7 +8,7 @@
 ### Pizza
 - Pizza
 - Pizza `Pizza`
-- ![Pizza](/images/imeges.gif "Pizza")
+- ![Pizza](/images/404.jpg "Pizza")
 - [Mr.Pizza Hut](https://malyarock.github.io/mrpizzahut/) by Malyarock
 - Mr.Pizza Hut <https://malyarock.github.io/mrpizzahut/>
 - [**Mr.Pizza Hut**](https://malyarock.github.io/mrpizzahut/)
