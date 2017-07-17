@@ -19,10 +19,7 @@ html {
 }
 
 body {
-  background: url("{{ site.baseurl }}/images/bg.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  background-color: $black;
+
 }
 
 .center{
@@ -30,6 +27,10 @@ body {
 }
 
 .container{
+  background: url("{{ site.baseurl }}/images/bg.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: $black;
   filter: grayscale(1);
   -webkit-filter: grayscale(1);
 }
