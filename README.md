@@ -2,15 +2,15 @@
 
 # Mr.Pizza Hut
 
-**LINK** for link ([Jekyll Repository](https://github.com/jekyll/jekyll))
+**Creator** - ([Malyarock's Repository](https://github.com/malyarock/mrpizzahut))
 
 ## Pizza
 ### Pizza
 - Pizza
 - Pizza `Pizza`
-- ![Pizza](/images/404.jpg "Pizza")
 - [Mr.Pizza Hut](https://malyarock.github.io/mrpizzahut/) by Malyarock
 - Mr.Pizza Hut <https://malyarock.github.io/mrpizzahut/>
 - [**Mr.Pizza Hut**](https://malyarock.github.io/mrpizzahut/)
 ✓ 
 ✘
+- ![Pizza](/images/404.jpg "Pizza")
