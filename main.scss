@@ -42,7 +42,7 @@ body {
 
 
 
-.btn.btn-secondary.btn-feel-pizza {
+#btn-feel-p {
   background: none;
   border: 1px solid $white;
   border-radius: 6px;
@@ -53,17 +53,17 @@ body {
   transition: 0.2s;
   width: 100%;
 }
-.btn.btn-secondary.btn-feel-pizza>div{
+#btn-feel-p>div{
 
   margin: 0 auto;
   display: block;
 }
 
-.btn.btn-secondary.btn-feel-pizza:hover {
+#btn-feel-p:hover {
   background: rgba(255,255,255,.35);
 }
 
-.btn.btn-secondary.btn-feel-pizza:active {
+#btn-feel-p:active {
   background: white;
   color: black;
 }
