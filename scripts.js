@@ -1,4 +1,6 @@
-alert('Hi');
+$( document ).ready(function() {
+    alert('Hi');
+});
 $("main-captio").click(function(){
     alert('Hi');
     $("main-captio").css("color", "black")};
