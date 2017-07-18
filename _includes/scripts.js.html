@@ -4,9 +4,10 @@
         console.log( "ready!" );
         var varfeelp = $( "#btn-feel-p" );
         var varbground = $("#bground");
+        var speedmovebg = 0;
         varfeelp.mouseover(function()
         {
-            varbground.css("-webkit-filter", "grayscale("+0+")");
+            varbground.css("-webkit-filter", "grayscale("+speedmovebg+")");
         });
 
         varfeelp.mouseout(function()
