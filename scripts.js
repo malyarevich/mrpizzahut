@@ -1,6 +1,5 @@
 
 
-
 /*$("container-fluid").css("filter", function () {
     "grayscale(0)"
 };
