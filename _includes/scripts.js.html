@@ -2,14 +2,10 @@
     $( document ).ready(function()
     {
 
-
-
-
-
         var varfeelp = $( "#btn-feel-p" );
         var varbground = $("#bground");
 
-        varbground.animate({'opacity':'0'},,function(){
+        varbground.css(function(){
 
             $(this).animate({'opacity':'1'},5000);
 
@@ -27,4 +23,3 @@
     });
 </script>
 
-background: url("{{ site.baseurl }}/images/bgm.jpg");
