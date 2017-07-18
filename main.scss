@@ -37,6 +37,7 @@ body {
   background-size: cover;
   background-color: $black;
   filter: grayscale(1);
+  opacity: 0;
   -webkit-filter: grayscale(1);
 }
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
