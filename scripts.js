@@ -1,6 +1,6 @@
 $("#btn-feel-p").mousemove(function(){
     alert('Hi');
-    $("#this").css("color", "back")};
+    $("#this").css("color", "black")};
 
 
 /*$("container-fluid").css("filter", function () {
