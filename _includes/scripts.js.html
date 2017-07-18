@@ -9,14 +9,25 @@
         var varfeelp = $( "#btn-feel-p" );
         var varbground = $("#bground");
 
-        $(varbground).animate({'opacity':'0'},1000,function(){
+        varbground.animate({'opacity':'0'},10,function(){
 
-            $(this).css('background-image', 'url("{{ site.baseurl }}/images/bgm.jpg")');
-
-            $(this).animate({'opacity':'1'},1000);
+            $(this).animate({'opacity':'1'},2000);
 
         });
 
+
+        var varfeelp = $( "#btn-feel-p" );
+        var varbground = $("#bground");
+
+        varfeelp.mouseover(function()
+        {
+            varbground.css("-webkit-filter", "grayscale(0)");
+        });
+
+        varfeelp.mouseout(function()
+        {
+            varbground.css("-webkit-filter", "grayscale(1)");
+        });
     });
 </script>
 
