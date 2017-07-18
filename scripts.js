@@ -1,20 +1,23 @@
 
 
-/*$("container-fluid").css("filter", function () {
-    "grayscale(0)"
-};
-$("container-fluid").css("-webkit-filter", "grayscale(1)");
+/*
 
+ <script type="text/javascript">
+ $( document ).ready(function()
+ {
+ var varfeelp = $( "#btn-feel-p" );
+ var varbground = $("#bground");
 
- $("id="btn-feel-p"").mousemove(function(){
- alert('Hi');
-
+ varfeelp.mouseover(function()
+ {
+ varbground.css("-webkit-filter", "grayscale(0)");
  });
 
-
-
- $("main-captio").click(function(){
- alert('Hi');
- $("main-captio").css("color", "black")};
+ varfeelp.mouseout(function()
+ {
+ varbground.css("-webkit-filter", "grayscale(1)");
+ });
+ });
+ </script>
 
 */

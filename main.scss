@@ -19,7 +19,11 @@ html {
 }
 
 body {
-
+  height: 100vh;
+  background: url("{{ site.baseurl }}/images/bgm.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: $black;
 }
 
 .center{
@@ -28,7 +32,7 @@ body {
 
 .container-fluid{
   height: 100vh;
-  background: url("{{ site.baseurl }}/images/bg.jpg");
+  background: url("{{ site.baseurl }}/images/bgm.jpg");
   background-attachment: fixed;
   background-size: cover;
   background-color: $black;
