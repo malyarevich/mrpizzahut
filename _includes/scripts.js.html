@@ -2,10 +2,14 @@
     $( document ).ready(function()
     {
         console.log( "ready!" );
-        $( "#btn-feel-p" ).hover(function()
+        $( "#btn-feel-p" ).mouseover(function()
         {
-            alert( "#btn-feel-p + bground" );
+            alert( "защел );
             $("#bground").css("-webkit-filter", "grayscale(0)");
+        });
+        $( "#btn-feel-p" ).mouseout(function()
+        {
+            $("#bground").css("-webkit-filter", "grayscale(1)");
         });
         console.log( "End!" );
     });
