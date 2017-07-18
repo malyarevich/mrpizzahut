@@ -1,4 +1,4 @@
-$("btn-feel-pizza").mousemove(function(){
+$("btn-feel-pizza").click(function(){
 
     $("container-fluid").css("-webkit-filter", function () {
        return "grayscale(0)";
