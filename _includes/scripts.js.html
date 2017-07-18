@@ -2,14 +2,16 @@
     $( document ).ready(function()
     {
         console.log( "ready!" );
-        $( "#btn-feel-p" ).mouseover(function()
+        var varfeelp = $( "#btn-feel-p" );
+        var varbground = $("#bground");
+        varfeelp.mouseover(function()
         {
-            $("#bground").css("-webkit-filter", "grayscale(0)");
+            varbground.css("-webkit-filter", "grayscale(0)");
         });
 
-        $( "#btn-feel-p" ).mouseout(function()
+        varfeelp.mouseout(function()
         {
-            $("#bground").css("-webkit-filter", "grayscale(1)");
+            varbground.css("-webkit-filter", "grayscale(1)");
         });
         console.log( "End!" );
     });
