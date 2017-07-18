@@ -1,8 +1,8 @@
 $("btn-feel-pizza").mousemove(function(){
 
     $("container-fluid").css("-webkit-filter", function () {
-        "grayscale(0)";
-    }
+       return "grayscale(0)";
+    });
 });
 
 
