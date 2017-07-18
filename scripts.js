@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+jQeary( document ).ready(function() {
     alert('Hi');
 });
 
