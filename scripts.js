@@ -1,9 +1,6 @@
 $( document ).ready(function() {
     alert('Hi');
 });
-$("main-captio").click(function(){
-    alert('Hi');
-    $("main-captio").css("color", "black")};
 
 
 /*$("container-fluid").css("filter", function () {
@@ -18,5 +15,11 @@ $("container-fluid").css("-webkit-filter", "grayscale(1)");
  return "grayscale(0)";
  });
  });
+
+
+
+ $("main-captio").click(function(){
+ alert('Hi');
+ $("main-captio").css("color", "black")};
 
 */
