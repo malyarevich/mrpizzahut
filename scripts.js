@@ -1,4 +1,4 @@
-$("id="btn-feel-p"").mousemove(function(){
+$("#btn-feel-p").mousemove(function(){
     alert('Hi');
     $("#this").css("color", "back")};
 
