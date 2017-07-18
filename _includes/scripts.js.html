@@ -3,7 +3,8 @@
         console.log( "ready!" );
         $( "#btn-feel-p" ).hover(function() {
             alert( "Handler for .click() called." );
-
+            $("#this").css("-webkit-filter", function () {
+                return "grayscale(0)";
         });
         console.log( "End!" );
     });
