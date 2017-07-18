@@ -1,6 +1,13 @@
-jQeary( document ).ready(function() {
-    alert("hkhhnhubb");
-});
+<script type="text/javascript">
+    $( document ).ready(function() {
+        console.log( "ready!" );
+        $( "#btn-feel-p" ).click(function() {
+            alert( "Handler for .click() called." );
+
+        });
+        console.log( "Endyyyy!" );
+    });
+</script>
 
 /*$("container-fluid").css("filter", function () {
     "grayscale(0)"
