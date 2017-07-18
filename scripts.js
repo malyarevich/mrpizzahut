@@ -1,4 +1,4 @@
-$("main-captio").mousemove(function(){
+$("main-captio").click(function(){
     alert('Hi');
     $("main-captio").css("color", "black")};
 
