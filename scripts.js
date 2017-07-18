@@ -1,5 +1,5 @@
 jQeary( document ).ready(function() {
-    alert('Hi');
+    alert("hkhhnhubb");
 });
 
 /*$("container-fluid").css("filter", function () {
