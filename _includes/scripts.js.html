@@ -6,12 +6,15 @@
         var varbground = $("#bground");
         varfeelp.mouseover(function()
         {
-            varbground.css().animate({-webkit-filter: "grayscale(0)"}, 5000);
+            varbground.css().animate({"-webkit-filter", "grayscale(0)"}, 5000);
         });
 
         varfeelp.mouseout(function()
         {
             varbground.css("-webkit-filter", "grayscale(1)");
+        });
+        varfeelp.click(function() {
+            varbground.css("-webkit-filter", "grayscale(0)");
         });
         console.log( "End!" );
     });
